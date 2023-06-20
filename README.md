@@ -36,6 +36,7 @@ GIF created with ...
 ## Notes
 
 Describe any challenges encountered while building the app.
+
 One of the challenges I encountered was to count the number of unfunded games using the reduce function. I had to carefully design the logic within the reduce callback function to track and update the count appropriately. I had to ensure that the accumulator was updated correctly with each iteration, incrementing the count only when the desired condition was met. Tackling the count occurrences challenge within the reduce() function provided a valuable learning opportunity, allowing me to deepen my understanding of array manipulation and functional programming concepts.
 
 ## License

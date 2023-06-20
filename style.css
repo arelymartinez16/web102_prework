@@ -3,6 +3,11 @@
 body {
     font-family: 'Cabin';
     background-color: #758190;
+    text-align: center;
+}
+
+.header #tentacles #header-text {
+    text-align: center;
 }
 
 #tentacles {

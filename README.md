@@ -1,23 +1,24 @@
-# WEB102 Prework - *Name of App Here*
+# WEB102 Prework - *Crowdfunding Independent Games by Sea Monster*
 
-Submitted by: **Your Name Here**
+Submitted by: **Arely Martinez Garcia**
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+**Crowdfunding Independent Games by Sea Monster** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **X** hours spent in total
+Time spent: **5** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-* [ ] The introduction section explains the background of the company and how many games remain unfunded.
-* [ ] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
-* [ ] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
-* [ ] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
+* [x] The introduction section explains the background of the company and how many games remain unfunded.
+* [x] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
+* [x] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
+* [x] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
 
 The following **optional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [x] Centered headings and descriptions
+* [x] Implemented hover effects on the buttons
 
 ## Video Walkthrough
 
@@ -35,10 +36,11 @@ GIF created with ...
 ## Notes
 
 Describe any challenges encountered while building the app.
+One of the challenges I encountered was to count the number of unfunded games using the reduce function. I had to carefully design the logic within the reduce callback function to track and update the count appropriately. I had to ensure that the accumulator was updated correctly with each iteration, incrementing the count only when the desired condition was met. Tackling the count occurrences challenge within the reduce() function provided a valuable learning opportunity, allowing me to deepen my understanding of array manipulation and functional programming concepts.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2023] [Arely Martinez Garcia]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
